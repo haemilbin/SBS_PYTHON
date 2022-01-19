@@ -14,10 +14,14 @@
 # 4. 같은 영역은 들여쓰기 통일해야한다.
 
 # input()함수는 입력값을 문자열 자료형으로 가져온다.
-age = int( input("당신은 몇 살입니까?") )
+age = input("당신은 몇 살입니까?")
+age = int(age)
 
 # 숫자형으로 연산하기 위해서는 형 변환을 해야한다.
 if( age >= 20 ):
     print("성인입니다.")
+    print("나이 : {}".format(age))
 else:
     print("청소년입니다.")
+    print("나이 : {}".format(age))
+
